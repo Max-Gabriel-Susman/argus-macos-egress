@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		008DB6232CD73E34008FB732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 008DB6092CD73E33008FB732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 008DB6102CD73E33008FB732;
+			remoteInfo = "argus-macos-egress";
+		};
+		008DB62D2CD73E34008FB732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 008DB6092CD73E33008FB732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 008DB6102CD73E33008FB732;
+			remoteInfo = "argus-macos-egress";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008DB6112CD73E33008FB732 /* argus-macos-egress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "argus-macos-egress.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		008DB6222CD73E34008FB732 /* argus-macos-egressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "argus-macos-egressTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		008DB62C2CD73E34008FB732 /* argus-macos-egressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "argus-macos-egressUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		008DB6132CD73E33008FB732 /* argus-macos-egress */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "argus-macos-egress";
+			sourceTree = "<group>";
+		};
+		008DB6252CD73E34008FB732 /* argus-macos-egressTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "argus-macos-egressTests";
+			sourceTree = "<group>";
+		};
+		008DB62F2CD73E34008FB732 /* argus-macos-egressUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "argus-macos-egressUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		008DB60E2CD73E33008FB732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008DB61F2CD73E34008FB732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008DB6292CD73E34008FB732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008DB6082CD73E33008FB732 = {
+			isa = PBXGroup;
+			children = (
+				008DB6132CD73E33008FB732 /* argus-macos-egress */,
+				008DB6252CD73E34008FB732 /* argus-macos-egressTests */,
+				008DB62F2CD73E34008FB732 /* argus-macos-egressUITests */,
+				008DB6122CD73E33008FB732 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		008DB6122CD73E33008FB732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				008DB6112CD73E33008FB732 /* argus-macos-egress.app */,
+				008DB6222CD73E34008FB732 /* argus-macos-egressTests.xctest */,
+				008DB62C2CD73E34008FB732 /* argus-macos-egressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		008DB6102CD73E33008FB732 /* argus-macos-egress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008DB6362CD73E34008FB732 /* Build configuration list for PBXNativeTarget "argus-macos-egress" */;
+			buildPhases = (
+				008DB60D2CD73E33008FB732 /* Sources */,
+				008DB60E2CD73E33008FB732 /* Frameworks */,
+				008DB60F2CD73E33008FB732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				008DB6132CD73E33008FB732 /* argus-macos-egress */,
+			);
+			name = "argus-macos-egress";
+			packageProductDependencies = (
+			);
+			productName = "argus-macos-egress";
+			productReference = 008DB6112CD73E33008FB732 /* argus-macos-egress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		008DB6212CD73E34008FB732 /* argus-macos-egressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008DB6392CD73E34008FB732 /* Build configuration list for PBXNativeTarget "argus-macos-egressTests" */;
+			buildPhases = (
+				008DB61E2CD73E34008FB732 /* Sources */,
+				008DB61F2CD73E34008FB732 /* Frameworks */,
+				008DB6202CD73E34008FB732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				008DB6242CD73E34008FB732 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				008DB6252CD73E34008FB732 /* argus-macos-egressTests */,
+			);
+			name = "argus-macos-egressTests";
+			packageProductDependencies = (
+			);
+			productName = "argus-macos-egressTests";
+			productReference = 008DB6222CD73E34008FB732 /* argus-macos-egressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		008DB62B2CD73E34008FB732 /* argus-macos-egressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008DB63C2CD73E34008FB732 /* Build configuration list for PBXNativeTarget "argus-macos-egressUITests" */;
+			buildPhases = (
+				008DB6282CD73E34008FB732 /* Sources */,
+				008DB6292CD73E34008FB732 /* Frameworks */,
+				008DB62A2CD73E34008FB732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				008DB62E2CD73E34008FB732 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				008DB62F2CD73E34008FB732 /* argus-macos-egressUITests */,
+			);
+			name = "argus-macos-egressUITests";
+			packageProductDependencies = (
+			);
+			productName = "argus-macos-egressUITests";
+			productReference = 008DB62C2CD73E34008FB732 /* argus-macos-egressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		008DB6092CD73E33008FB732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					008DB6102CD73E33008FB732 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					008DB6212CD73E34008FB732 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 008DB6102CD73E33008FB732;
+					};
+					008DB62B2CD73E34008FB732 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 008DB6102CD73E33008FB732;
+					};
+				};
+			};
+			buildConfigurationList = 008DB60C2CD73E33008FB732 /* Build configuration list for PBXProject "argus-macos-egress" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 008DB6082CD73E33008FB732;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 008DB6122CD73E33008FB732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				008DB6102CD73E33008FB732 /* argus-macos-egress */,
+				008DB6212CD73E34008FB732 /* argus-macos-egressTests */,
+				008DB62B2CD73E34008FB732 /* argus-macos-egressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		008DB60F2CD73E33008FB732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008DB6202CD73E34008FB732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008DB62A2CD73E34008FB732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		008DB60D2CD73E33008FB732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008DB61E2CD73E34008FB732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008DB6282CD73E34008FB732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		008DB6242CD73E34008FB732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 008DB6102CD73E33008FB732 /* argus-macos-egress */;
+			targetProxy = 008DB6232CD73E34008FB732 /* PBXContainerItemProxy */;
+		};
+		008DB62E2CD73E34008FB732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 008DB6102CD73E33008FB732 /* argus-macos-egress */;
+			targetProxy = 008DB62D2CD73E34008FB732 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		008DB6342CD73E34008FB732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		008DB6352CD73E34008FB732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		008DB6372CD73E34008FB732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "argus-macos-egress/argus_macos_egress.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"argus-macos-egress/Preview Content\"";
+				DEVELOPMENT_TEAM = 354UWT7ZK9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prometheus.argus-macos-egress";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		008DB6382CD73E34008FB732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "argus-macos-egress/argus_macos_egress.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"argus-macos-egress/Preview Content\"";
+				DEVELOPMENT_TEAM = 354UWT7ZK9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prometheus.argus-macos-egress";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		008DB63A2CD73E34008FB732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 354UWT7ZK9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prometheus.argus-macos-egressTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/argus-macos-egress.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/argus-macos-egress";
+			};
+			name = Debug;
+		};
+		008DB63B2CD73E34008FB732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 354UWT7ZK9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prometheus.argus-macos-egressTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/argus-macos-egress.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/argus-macos-egress";
+			};
+			name = Release;
+		};
+		008DB63D2CD73E34008FB732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 354UWT7ZK9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prometheus.argus-macos-egressUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "argus-macos-egress";
+			};
+			name = Debug;
+		};
+		008DB63E2CD73E34008FB732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 354UWT7ZK9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prometheus.argus-macos-egressUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "argus-macos-egress";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		008DB60C2CD73E33008FB732 /* Build configuration list for PBXProject "argus-macos-egress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008DB6342CD73E34008FB732 /* Debug */,
+				008DB6352CD73E34008FB732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008DB6362CD73E34008FB732 /* Build configuration list for PBXNativeTarget "argus-macos-egress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008DB6372CD73E34008FB732 /* Debug */,
+				008DB6382CD73E34008FB732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008DB6392CD73E34008FB732 /* Build configuration list for PBXNativeTarget "argus-macos-egressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008DB63A2CD73E34008FB732 /* Debug */,
+				008DB63B2CD73E34008FB732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008DB63C2CD73E34008FB732 /* Build configuration list for PBXNativeTarget "argus-macos-egressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008DB63D2CD73E34008FB732 /* Debug */,
+				008DB63E2CD73E34008FB732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 008DB6092CD73E33008FB732 /* Project object */;
+}
