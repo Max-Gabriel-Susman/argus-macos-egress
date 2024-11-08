@@ -36,8 +36,7 @@ jobs:
         xcodebuild -project argus-macos-egress.xcodeproj \  # Replace 'YourProject.xcodeproj' with your actual project file
                    -scheme argus-ingress-ios \  # Replace 'argus-ingress-ios' with your scheme name
                    -configuration Release \  # Use 'Debug' or 'Release' as needed
-                   -sdk macosx \  # Ensures the SDK is set to macOS
-                   build
+                   -sdk macosx   # Ensures the SDK is set to macOS
 
 
 
