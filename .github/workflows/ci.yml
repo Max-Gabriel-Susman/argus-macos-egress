@@ -25,7 +25,7 @@ jobs:
       matrix:
         xcode: ['15.2']
         macos: ['macos-14']
-        scheme: ['argus-ingress-ios']
+        scheme: ['argus-macos-egress']
         command: ['test']
         platform: ['macOS', 'iOS', 'tvOS', 'watchOS']
     steps:
