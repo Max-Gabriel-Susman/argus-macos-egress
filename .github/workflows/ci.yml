@@ -33,10 +33,11 @@ jobs:
 
     - name: Build the project
       run: |
-        xcodebuild -workspace YourProject.xcworkspace \  # Replace with your .xcodeproj if not using a workspace
-                   -scheme YourScheme \  # Replace with your actual scheme
-                   -configuration Release \  # or Debug, based on your needs
+        xcodebuild -project YourProject.xcodeproj \  # Change this if you have a .xcodeproj
+                   -scheme argus-ingress-ios \  # Use your actual scheme name
+                   -configuration Release \  # or Debug, as needed
                    build
+
 
     - name: Run tests
       run: |
